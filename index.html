@@ -4,9 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/clear.css">
+  <link rel="stylesheet" href="SCSS/main.css">
   <title>Document</title>
 </head>
 <body>
-  
+   <div class="wrapper">
+      <div class="conteiner">
+
+         <header class="header">
+            <nav class="navigation">
+               <ul>
+                  <li>
+                     <img class="nav-logo" src="img/logoza.ru (1) (1).png" alt="logo">
+                  </li>
+                  <li>
+                     <a class="about-me" href="HTML/about-me.html">Обо мне: кто я?</a>
+                  </li>
+                  <li>
+                     <a class="my-works" href="">Мои работы</a>
+                  </li>
+                  <li>
+                     <a class="сontact-me" href="HTML/сontact-me.html">Связаться со мной</a>
+                  </li>
+                  <li>
+                     <p class="nav-year">2023</p>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+
+         <main class="main-content">
+            <img class="main-photo" src="img/photo_2023-02-21_13-04-46.jpg" alt="main-photo" width="400px">
+            <h2>Front - End Developer</h2>
+            <h1>Rail</h1>
+            <div class="main-image">
+               <img src="img/for portfolio.png" alt="photo" width="600px">
+            </div>
+            <div class="switch"> <!--Реализовать ПОТОМ переключение темы через js-->
+               <button class="light-theme" onclick="darkMode()">Светлая тема</button>
+               <button class="defolt-theme" onclick="defoltMode()">Дефолтная тема</button>
+               <button class="dark-theme" onclick="darkMode()">Тёмная тема</button>
+            </div>
+         </main>
+
+      </div>
+   </div>
+   <script src="JS/app.js"></script>
 </body>
 </html>
