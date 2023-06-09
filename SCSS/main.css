@@ -89,18 +89,4 @@ body {
   position: absolute;
   top: 68.5px;
   right: 150px;
-}
-.main-content .switch {
-  position: relative;
-  top: 700px;
-  left: 80px;
-}
-.main-content .switch button {
-  color: rgb(192, 194, 194);
-  font-size: 20px;
-  border: 1px solid rgb(29, 28, 28);
-  background-color: rgb(66, 60, 78);
-  margin: 10px;
-  border-radius: 10px;
-  padding: 10px;
 }/*# sourceMappingURL=main.css.map */
